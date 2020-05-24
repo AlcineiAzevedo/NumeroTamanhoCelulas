@@ -1,0 +1,9 @@
+
+if (!requireNamespace("BiocManager"))
+  install.packages("BiocManager")
+BiocManager::install()
+
+
+library(BiocManager)
+source("http://bioconductor.org/biocLite.R")
+biocLite("EBImage")
